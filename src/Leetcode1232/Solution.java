@@ -1,5 +1,6 @@
 package Leetcode1232;
 
+// https://leetcode.com/problems/check-if-it-is-a-straight-line/
 public class Solution {
     double gradient;
     double yIntercept;
