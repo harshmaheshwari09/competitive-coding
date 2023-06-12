@@ -1,4 +1,4 @@
-package Leetcode1232;
+package Leetcode_1232;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;

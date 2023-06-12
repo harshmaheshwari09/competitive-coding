@@ -1,4 +1,4 @@
-package Leetcode1318;
+package Leetcode_1318;
 
 // https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/
 public class Solution {

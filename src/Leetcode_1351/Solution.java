@@ -1,4 +1,4 @@
-package Leetcode1351;
+package Leetcode_1351;
 
 //https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
 class Solution {

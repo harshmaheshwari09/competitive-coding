@@ -1,4 +1,4 @@
-package Leetcode1232;
+package Leetcode_1232;
 
 // https://leetcode.com/problems/check-if-it-is-a-straight-line/
 public class Solution {

@@ -1,4 +1,4 @@
-package Leetcode1232;
+package Leetcode_1232;
 
 public enum LineType {
     NORMAL,

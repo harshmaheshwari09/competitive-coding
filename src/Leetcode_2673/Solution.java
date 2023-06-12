@@ -1,4 +1,4 @@
-package Leetcode2673;
+package Leetcode_2673;
 
 class Solution {
     int ans;
