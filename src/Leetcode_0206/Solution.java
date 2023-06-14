@@ -1,5 +1,7 @@
 package Leetcode_0206;
 
+import resources.ListNode;
+
 public class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;

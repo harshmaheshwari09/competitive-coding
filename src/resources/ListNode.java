@@ -1,12 +1,14 @@
-package Leetcode_0206;
+package resources;
+
+import org.junit.jupiter.api.Assertions;
 
 import java.util.List;
 
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
-    ListNode() {
+    public ListNode() {
     }
 
     ListNode(int val) {
@@ -27,5 +29,14 @@ public class ListNode {
             curr = curr.next;
         }
         return head.next;
+    }
+    public static void validate(ListNode expected, ListNode actual) {
+        while (expected != null && actual != null) {
+            Assertions.assertEquals(expected.val, actual.val);
+            expected = expected.next;
+            actual = actual.next;
+        }
+        Assertions.assertNull(expected);
+        Assertions.assertNull(actual);
     }
 }

@@ -1,5 +1,7 @@
 package Leetcode_0530;
 
+import resources.TreeNode;
+
 class Solution {
     int ans;
     public int getMinimumDifference(TreeNode root) {
