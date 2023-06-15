@@ -8,7 +8,7 @@ fi
 cd ~/IdeaProjects/Leetcode/src/leetcode
 
 input=$1
-directory_name="leetcode$input"
+directory_name="problem$input"
 mkdir $directory_name
 
 cd $directory_name
