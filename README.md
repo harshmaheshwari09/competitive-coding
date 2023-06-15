@@ -1,4 +1,4 @@
-# LeetCode Problem Solutions
+# Leetcode Problem Solutions
 
 This repository contains my solutions for various LeetCode problems. Each problem solution is implemented in Java and
 organized in separate directories based on the problem's ID and title.
