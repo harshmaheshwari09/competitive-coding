@@ -8,7 +8,7 @@ fi
 input=$1
 
 # Adding staged files
-git add Leetcode_*
+git add leetcode*
 git add scripts
 
 # Commit the changes
