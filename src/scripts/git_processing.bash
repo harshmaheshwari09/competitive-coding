@@ -8,8 +8,7 @@ fi
 input=$1
 
 # Adding staged files
-git add leetcode*
-git add scripts
+git add ~/IdeaProjects/Leetcode/src/
 
 # Commit the changes
 commit_message="adding sol for $input"

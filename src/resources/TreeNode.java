@@ -10,12 +10,12 @@ public class TreeNode {
         this.val = val;
     }
 
-    public static TreeNode arrayToTree(int[] arr) {
+    public static TreeNode arrayToTree(Integer[] arr) {
         return constructTree(arr, 0);
     }
 
-    public static TreeNode constructTree(int[] arr, int curr) {
-        if (curr >= arr.length || arr[curr] == -1) {
+    public static TreeNode constructTree(Integer[] arr, int curr) {
+        if (curr >= arr.length || arr[curr] == null) {
             return null;
         }
         TreeNode node = new TreeNode(arr[curr]);

@@ -12,5 +12,5 @@ directory_name="leetcode$input"
 mkdir $directory_name
 
 cd $directory_name
-echo "package $directory_name; public class Solution{}" > Solution.java
-echo "package $directory_name; public class SolutionTest{}" SolutionTest.java
+echo "package leetcode.$directory_name; public class Solution{}" > Solution.java
+echo "package leetcode.$directory_name; public class SolutionTest{}" > SolutionTest.java
