@@ -34,7 +34,7 @@ public class Solution {
         for (int i = 1; i < matrix.length; i++) {
             if (matrix[i][0] == 0) {
                 for (int j = 1; j < matrix[0].length; j++) {
-                    matrix[i][i] = 0;
+                    matrix[i][j] = 0;
                 }
             }
         }
