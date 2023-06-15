@@ -8,7 +8,8 @@ fi
 cd ~/IdeaProjects/Leetcode/src/leetcode
 
 input=$1
-directory_name="problem$input"
+paddedNumber=$(printf "%04d" "$input")
+directory_name="problem$paddedNumber"
 mkdir $directory_name
 
 cd $directory_name

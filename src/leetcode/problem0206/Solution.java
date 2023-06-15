@@ -2,6 +2,7 @@ package leetcode.problem0206;
 
 import resources.ListNode;
 
+// #linked_list
 public class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;

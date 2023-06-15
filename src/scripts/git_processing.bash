@@ -12,7 +12,7 @@ paddedNumber=$(printf "%04d" "$input")
 git add ~/IdeaProjects/Leetcode/src/
 
 # Commit the changes
-commit_message="adding sol for problem # $paddedNumber"
+commit_message="adding sol for problem #$paddedNumber"
 git commit -am "$commit_message"
 
 # Push the changes
