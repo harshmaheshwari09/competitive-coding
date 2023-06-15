@@ -1,17 +1,25 @@
 #!/bin/bash
 
-# Iterate over all directories in the current directory
-for dir in Leetcode_*; do
-    if [ -d "$dir" ]; then
-        # Extract the number part from the directory name
-        num=$(echo "$dir" | sed 's/Leetcode_//')
+# Define the source and destination directory paths
+srcDir="src/leetcode"
 
-        # Create the new directory name
-        new_dir="leetcode${num}"
+# Iterate over the directories in the source directory
+ls $srcDir
+for dir in "$srcDir"/*; do
+    # Extract the directory name
+    dirName=$(basename "$dir")
+
+    # Check if the directory name starts with "leetcode"
+    if [[ $dirName == leetcode* ]]; then
+        # Extract the problem number from the directory name
+        problemNum=${dirName#"leetcode"}
+
+        # Construct the new destination directory name
+        destDirName="problem$problemNum"
 
         # Rename the directory
-        mv "$dir" "$new_dir"
-
-        echo "Renamed directory: $dir -> $new_dir"
+        mv "$dir" "$srcDir/$destDirName"
     fi
 done
+
+echo "Directory names updated successfully."

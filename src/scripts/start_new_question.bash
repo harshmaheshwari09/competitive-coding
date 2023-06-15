@@ -5,10 +5,10 @@ if [ $# -ne 1 ]; then
   exit 1
 fi
 
-cd ~/IdeaProjects/Leetcode/src/
+cd ~/IdeaProjects/Leetcode/src/leetcode
 
 input=$1
-directory_name="Leetcode_$input"
+directory_name="leetcode$input"
 mkdir $directory_name
 
 cd $directory_name
