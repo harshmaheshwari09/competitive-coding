@@ -13,6 +13,13 @@ public class ValidationMethods {
         }
     }
 
+    public static void validateList(List<Integer> expected, List<Integer> actual) {
+        Assertions.assertEquals(expected.size(), actual.size());
+        for (int i = 0; i < expected.size(); i++) {
+            Assertions.assertEquals(expected.get(i), actual.get(i));
+        }
+    }
+
     public static void validateListOfList(List<List<Integer>> expected, List<List<Integer>> actual) {
         Assertions.assertEquals(expected.size(), actual.size());
         for (int i = 0; i < expected.size(); i++) {

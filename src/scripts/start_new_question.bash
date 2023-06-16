@@ -14,4 +14,4 @@ mkdir $directory_name
 
 cd $directory_name
 echo "package leetcode.$directory_name; /** ques: tags: complexity: */ public class Solution{}" > Solution.java
-echo "package leetcode.$directory_name; public class SolutionTest{@Test public void testSolution() {}}" > SolutionTest.java
+echo "package leetcode.$directory_name; import org.junit.jupiter.api.Test; public class SolutionTest{@Test public void testSolution() {}}" > SolutionTest.java
