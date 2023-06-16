@@ -1,8 +1,5 @@
 package leetcode.problem0200;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * ques: https://leetcode.com/problems/number-of-islands/description/
  * tags: #dfs
