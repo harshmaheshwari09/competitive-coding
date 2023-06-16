@@ -13,5 +13,5 @@ directory_name="problem$paddedNumber"
 mkdir $directory_name
 
 cd $directory_name
-echo "package leetcode.$directory_name; public class Solution{}" > Solution.java
-echo "package leetcode.$directory_name; public class SolutionTest{}" > SolutionTest.java
+echo "package leetcode.$directory_name; /** ques: tags: complexity: */ public class Solution{}" > Solution.java
+echo "package leetcode.$directory_name; public class SolutionTest{@Test public void testSolution() {}}" > SolutionTest.java
