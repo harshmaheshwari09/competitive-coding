@@ -9,7 +9,7 @@ input=$1
 paddedNumber=$(printf "%04d" "$input")
 
 # Adding staged files
-git add ~/IdeaProjects/Leetcode/src/
+git add ~/IdeaProjects/competitive-coding/src/
 
 # Commit the changes
 commit_message="adding sol for problem #$paddedNumber"
