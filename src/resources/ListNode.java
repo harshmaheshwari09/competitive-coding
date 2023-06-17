@@ -20,7 +20,7 @@ public class ListNode {
         this.next = next;
     }
 
-    public static ListNode getList(List<Integer> integers) {
+    public static ListNode getLinkedList(List<Integer> integers) {
         ListNode head = new ListNode();
         ListNode curr = head;
         for (int val : integers) {
