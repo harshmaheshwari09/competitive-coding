@@ -13,7 +13,7 @@ public class SolutionTest {
         Integer[] arr = {3, 9, 20, null, null, 15, 7};
         TreeNode head = TreeNode.arrayToTree(arr);
         Integer[][] expected = {{3}, {9, 20}, {15, 7}};
-        Integer[][] actual = Operations.convertToNestedArray(sol.levelOrder(head));
+        Integer[][] actual = Operations.convertToNestedIntegerArray(sol.levelOrder(head));
         Assertions.assertArrayEquals(expected, actual);
     }
 
@@ -23,7 +23,7 @@ public class SolutionTest {
         Integer[] arr = {1};
         TreeNode head = TreeNode.arrayToTree(arr);
         Integer[][] expected = {{1}};
-        Integer[][] actual = Operations.convertToNestedArray(sol.levelOrder(head));
+        Integer[][] actual = Operations.convertToNestedIntegerArray(sol.levelOrder(head));
         Assertions.assertArrayEquals(expected, actual);
     }
 
@@ -33,7 +33,7 @@ public class SolutionTest {
         Integer[] arr = {};
         TreeNode head = TreeNode.arrayToTree(arr);
         Integer[][] expected = {};
-        Integer[][] actual = Operations.convertToNestedArray(sol.levelOrder(head));
+        Integer[][] actual = Operations.convertToNestedIntegerArray(sol.levelOrder(head));
         Assertions.assertArrayEquals(expected, actual);
     }
 }

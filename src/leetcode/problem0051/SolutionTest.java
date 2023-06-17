@@ -1,24 +1,23 @@
-package leetcode.problem0118;
+package leetcode.problem0051;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import resources.Operations;
 
 public class SolutionTest {
-
     @Test
     public void testSolution1() {
         Solution sol = new Solution();
-        Integer[][] actual = Operations.convertToNestedIntegerArray(sol.generate(5));
-        Integer[][] expected = {{1}, {1, 1}, {1, 2, 1}, {1, 3, 3, 1}, {1, 4, 6, 4, 1}};
+        String[][] actual = Operations.convertToNestedStringArray(sol.solveNQueens(4));
+        String[][] expected = {{".Q..","...Q","Q...","..Q."}, {"..Q.","Q...","...Q",".Q.."}};
         Assertions.assertArrayEquals(expected, actual);
     }
 
     @Test
     public void testSolution2() {
         Solution sol = new Solution();
-        Integer[][] actual = Operations.convertToNestedIntegerArray(sol.generate(1));
-        Integer[][] expected = {{1}};
+        String[][] actual = Operations.convertToNestedStringArray(sol.solveNQueens(1));
+        String[][] expected = {{"Q"}};
         Assertions.assertArrayEquals(expected, actual);
     }
 }
