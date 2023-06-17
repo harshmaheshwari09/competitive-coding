@@ -1,7 +1,7 @@
 package leetcode.problem0289;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import resources.ValidationMethods;
 
 public class SolutionTest {
 
@@ -21,7 +21,7 @@ public class SolutionTest {
             {0, 1, 1},
             {0, 1, 0}
         };
-        ValidationMethods.validateMatrices(expected, actual);
+        Assertions.assertArrayEquals(expected, actual);
     }
 
     @Test
@@ -36,6 +36,6 @@ public class SolutionTest {
             {1, 1},
             {1, 1}
         };
-        ValidationMethods.validateMatrices(expected, actual);
+        Assertions.assertArrayEquals(expected, actual);
     }
 }

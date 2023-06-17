@@ -7,10 +7,8 @@ class Solution {
     public int equalPairs(int[][] grid) {
         Map<String, Integer> rowMap = new HashMap<>();
         compute(grid, rowMap, true);
-        System.out.println(rowMap);
         Map<String, Integer> colMap = new HashMap<>();
         compute(grid, colMap, false);
-        System.out.println(colMap);
         int ans = 0;
         for (var entry : rowMap.entrySet()) {
             if (colMap.containsKey(entry.getKey())) {

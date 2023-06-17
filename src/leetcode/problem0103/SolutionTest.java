@@ -1,11 +1,9 @@
 package leetcode.problem0103;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import resources.Operations;
 import resources.TreeNode;
-import resources.ValidationMethods;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class SolutionTest {
 
@@ -14,8 +12,9 @@ public class SolutionTest {
         Solution sol = new Solution();
         Integer[] arr = {3, 9, 20, null, null, 15, 7};
         TreeNode head = TreeNode.arrayToTree(arr);
-        List<List<Integer>> expected = List.of(List.of(3), List.of( 20, 9), List.of(15, 7));
-        ValidationMethods.validateListOfList(expected, sol.zigzagLevelOrder(head));
+        Integer[][] expected = {{3}, {20, 9}, {15, 7}};
+        Integer[][] actual = Operations.convertToNestedArray(sol.zigzagLevelOrder(head));
+        Assertions.assertArrayEquals(expected, actual);
     }
 
     @Test
@@ -23,8 +22,9 @@ public class SolutionTest {
         Solution sol = new Solution();
         Integer[] arr = {1};
         TreeNode head = TreeNode.arrayToTree(arr);
-        List<List<Integer>> expected = List.of(List.of(1));
-        ValidationMethods.validateListOfList(expected, sol.zigzagLevelOrder(head));
+        Integer[][] expected = {{1}};
+        Integer[][] actual = Operations.convertToNestedArray(sol.zigzagLevelOrder(head));
+        Assertions.assertArrayEquals(expected, actual);
     }
 
     @Test
@@ -32,7 +32,8 @@ public class SolutionTest {
         Solution sol = new Solution();
         Integer[] arr = {};
         TreeNode head = TreeNode.arrayToTree(arr);
-        List<List<Integer>> expected = new ArrayList<>();
-        ValidationMethods.validateListOfList(expected, sol.zigzagLevelOrder(head));
+        Integer[][] expected = {};
+        Integer[][] actual = Operations.convertToNestedArray(sol.zigzagLevelOrder(head));
+        Assertions.assertArrayEquals(expected, actual);
     }
 }
