@@ -30,5 +30,6 @@ mkdir $directory_name
 
 cd $directory_name
 echo -e "# $number. $filename\n\n* Question: $url \n* Solution: [here](Solution.java) \n* Testing: [here](SolutionTest.java) \n* Tags: \n* Complexity: " > "$file_name"
-echo "package leetcode.$directory_name; /** ques: $url tags: complexity: */ public class Solution{}" > Solution.java
-echo "package leetcode.$directory_name; import org.junit.jupiter.api.Test; public class SolutionTest{@Test public void testSolution1() {}}" > SolutionTest.java
+echo -e "# $number. $filename\n\n* Question: $url \n* Solution: [here](Solution.java) \n* Testing: [here](SolutionTest.java) \n* Tags: \n* Complexity: " > README.md
+echo -e "package leetcode.$directory_name; /** ques: $url tags: # complexity: Time: , Space:*/ public class Solution{}" > Solution.java
+echo -e "package leetcode.$directory_name; import org.junit.jupiter.api.Test; public class SolutionTest{@Test public void testSolution1() {}}" > SolutionTest.java
