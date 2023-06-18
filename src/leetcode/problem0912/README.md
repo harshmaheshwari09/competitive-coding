@@ -1,0 +1,10 @@
+# 912. SORT AN ARRAY
+
+* Question: https://leetcode.com/problems/sort-an-array/
+* Bubble-Sort: [here](BubbleSort.java)
+* Selection-Sort: [here](SelectionSort.java)
+* Insertion-Sort: [here](InsertionSort.java)
+* Merge-Sort: [here](MergeSort.java)
+* Quick-Sort: [here](QuickSort.java)
+* Testing: [here](SolutionTest.java)
+* Tags: #sorting
