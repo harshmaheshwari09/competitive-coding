@@ -19,10 +19,10 @@ public class SolutionTest {
     @Test
     public void testSolution2() {
         char[][] inputArray = {
-            {'1','1','0','0','0'},
-            {'1','1','0','0','0'},
-            {'0','0','1','0','0'},
-            {'0','0','0','1','1'}
+            {'1', '1', '0', '0', '0'},
+            {'1', '1', '0', '0', '0'},
+            {'0', '0', '1', '0', '0'},
+            {'0', '0', '0', '1', '1'}
         };
         Solution sol = new Solution();
         Assertions.assertEquals(3, sol.numIslands(inputArray));

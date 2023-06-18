@@ -9,7 +9,7 @@ public class SolutionTest {
     public void testSolution1() {
         Solution sol = new Solution();
         String[][] actual = Operations.convertToNestedStringArray(sol.solveNQueens(4));
-        String[][] expected = {{".Q..","...Q","Q...","..Q."}, {"..Q.","Q...","...Q",".Q.."}};
+        String[][] expected = {{".Q..", "...Q", "Q...", "..Q."}, {"..Q.", "Q...", "...Q", ".Q.."}};
         Assertions.assertArrayEquals(expected, actual);
     }
 

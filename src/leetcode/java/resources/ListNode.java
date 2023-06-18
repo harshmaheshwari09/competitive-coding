@@ -30,6 +30,7 @@ public class ListNode {
         }
         return head.next;
     }
+
     public static void validate(ListNode expected, ListNode actual) {
         while (expected != null && actual != null) {
             Assertions.assertEquals(expected.val, actual.val);

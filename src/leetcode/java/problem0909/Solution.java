@@ -12,7 +12,7 @@ public class Solution {
         int ans = 1;
         while (queue.size() > 0) {
             int size = queue.size();
-            while(size-- > 0) {
+            while (size-- > 0) {
                 int curr = queue.poll();
                 for (int i = 1; i <= 6; i++) {
                     int next = getNext(curr + i, board);

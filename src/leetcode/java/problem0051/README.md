@@ -5,7 +5,8 @@
 * Testing: [here](SolutionTest.java)
 * Tags: #backtrack
 * Complexity: Time: O(n!), Space: O(1)
-* 
+*
+
 ---
 
 ## Logic:
@@ -13,6 +14,7 @@
 ![logic](logic.png)
 
 Conclusions from above explanation:
+
 * Row ∈ [0, n]
 * Col ∈ [0, n]
 * Positive diagonal ∈ [0, 2n]

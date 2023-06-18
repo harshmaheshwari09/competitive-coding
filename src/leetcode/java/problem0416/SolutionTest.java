@@ -13,7 +13,7 @@ public class SolutionTest {
 
     @Test
     public void testSolution2() {
-        int[] arr = {1,2,3,5};
+        int[] arr = {1, 2, 3, 5};
         Solution sol = new Solution();
         Assertions.assertFalse(sol.canPartition(arr));
     }

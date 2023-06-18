@@ -26,7 +26,7 @@ public class Solution {
         }
         for (int end = start; end < nums.length; end++) {
             Operations.swap(nums, start, end);
-            helper(nums, start +1, result);
+            helper(nums, start + 1, result);
             Operations.swap(nums, start, end);
         }
     }

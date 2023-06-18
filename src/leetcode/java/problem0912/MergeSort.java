@@ -37,7 +37,7 @@ public class MergeSort implements Sort {
         while (leftPtr < left.length) {
             nums[l1++] = left[leftPtr++];
         }
-        while(rightPtr < right.length) {
+        while (rightPtr < right.length) {
             nums[l1++] = right[rightPtr++];
         }
     }

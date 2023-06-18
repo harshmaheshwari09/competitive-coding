@@ -29,11 +29,11 @@ public class SolutionTest {
 
     @Test
     public void testSolution3() {
-        ListNode l1 = ListNode.getLinkedList(List.of(9,9,9,9,9,9,9));
-        ListNode l2 = ListNode.getLinkedList(List.of(9,9,9,9));
+        ListNode l1 = ListNode.getLinkedList(List.of(9, 9, 9, 9, 9, 9, 9));
+        ListNode l2 = ListNode.getLinkedList(List.of(9, 9, 9, 9));
         Solution sol = new Solution();
         ListNode actual = sol.addTwoNumbers(l1, l2);
-        ListNode expected = ListNode.getLinkedList(List.of(8,9,9,9,0,0,0,1));
+        ListNode expected = ListNode.getLinkedList(List.of(8, 9, 9, 9, 0, 0, 0, 1));
         ListNode.validate(expected, actual);
     }
 }

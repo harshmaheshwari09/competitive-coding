@@ -12,7 +12,7 @@ class Solution {
         int ans = 0;
         for (var entry : rowMap.entrySet()) {
             if (colMap.containsKey(entry.getKey())) {
-                ans += (colMap.get(entry.getKey()) *  entry.getValue());
+                ans += (colMap.get(entry.getKey()) * entry.getValue());
             }
         }
         return ans;

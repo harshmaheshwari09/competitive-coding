@@ -10,7 +10,7 @@ public class SolutionTest {
         TreeNode node = TreeNode.arrayToTree(new Integer[]{1, null, 2, null, null, 3, null});
         Solution sol = new Solution();
         Integer[] actual = sol.preorderTraversal(node).toArray(new Integer[0]);
-        Integer[] expected ={1, 2, 3};
+        Integer[] expected = {1, 2, 3};
         Assertions.assertArrayEquals(expected, actual);
     }
 
@@ -19,7 +19,7 @@ public class SolutionTest {
         TreeNode node = TreeNode.arrayToTree(new Integer[]{});
         Solution sol = new Solution();
         Integer[] actual = sol.preorderTraversal(node).toArray(new Integer[0]);
-        Integer[] expected ={};
+        Integer[] expected = {};
         Assertions.assertArrayEquals(expected, actual);
     }
 
@@ -28,7 +28,7 @@ public class SolutionTest {
         TreeNode node = TreeNode.arrayToTree(new Integer[]{1});
         Solution sol = new Solution();
         Integer[] actual = sol.preorderTraversal(node).toArray(new Integer[0]);
-        Integer[] expected ={1};
+        Integer[] expected = {1};
         Assertions.assertArrayEquals(expected, actual);
     }
 }

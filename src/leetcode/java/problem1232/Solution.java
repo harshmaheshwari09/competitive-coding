@@ -15,7 +15,7 @@ public class Solution {
         preProcess(coordinates[0][0], coordinates[0][1], coordinates[1][0], coordinates[1][1]);
         for (int i = 2; i < n; i++) {
             switch (this.lineType) {
-                case NORMAL :
+                case NORMAL:
                     if (coordinates[i][1] != this.gradient * coordinates[i][0] + this.yIntercept) {
                         return false;
                     }
@@ -44,7 +44,7 @@ public class Solution {
         }
 
         switch (this.lineType) {
-            case HORIZONTAL :
+            case HORIZONTAL:
                 this.gradient = y1;
                 break;
             case VERTICAL:

@@ -13,7 +13,7 @@ public class Solution {
         for (int i = 0; i < n; i++) {
             right = right.next;
         }
-        while(right.next != null) {
+        while (right.next != null) {
             left = left.next;
             right = right.next;
         }

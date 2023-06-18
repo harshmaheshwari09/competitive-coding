@@ -19,7 +19,7 @@ class Solution {
             int size = queue.size();
             List<Integer> intermediateList = new ArrayList<>();
             for (int i = 0; i < size; i++) {
-                TreeNode node  = queue.poll();
+                TreeNode node = queue.poll();
                 intermediateList.add(node.val);
                 if (node.left != null) {
                     queue.offer(node.left);

@@ -4,6 +4,7 @@ import leetcode.java.resources.TreeNode;
 
 class Solution {
     int ans;
+
     public int getMinimumDifference(TreeNode root) {
         ans = Integer.MAX_VALUE;
         helper(root);
