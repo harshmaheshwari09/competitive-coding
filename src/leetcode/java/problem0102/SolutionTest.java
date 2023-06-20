@@ -2,8 +2,8 @@ package leetcode.java.problem0102;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import leetcode.java.resources.Operations;
-import leetcode.java.resources.TreeNode;
+import leetcode.java.model.Operations;
+import leetcode.java.model.TreeNode;
 
 public class SolutionTest {
 

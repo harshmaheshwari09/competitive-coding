@@ -1,6 +1,6 @@
 package leetcode.java.problem0046;
 
-import leetcode.java.resources.Operations;
+import leetcode.java.model.Operations;
 
 import java.util.ArrayList;
 import java.util.Arrays;

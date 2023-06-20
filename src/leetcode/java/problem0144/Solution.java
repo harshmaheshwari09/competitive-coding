@@ -1,6 +1,6 @@
 package leetcode.java.problem0144;
 
-import leetcode.java.resources.TreeNode;
+import leetcode.java.model.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

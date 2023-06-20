@@ -1,6 +1,6 @@
 package leetcode.java.problem0876;
 
-import leetcode.java.resources.ListNode;
+import leetcode.java.model.ListNode;
 
 // https://leetcode.com/problems/middle-of-the-linked-list/
 // #linked_list

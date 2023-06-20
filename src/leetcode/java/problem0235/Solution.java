@@ -1,6 +1,6 @@
 package leetcode.java.problem0235;
 
-import leetcode.java.resources.TreeNode;
+import leetcode.java.model.TreeNode;
 
 /**
  * ques: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/

@@ -1,4 +1,4 @@
-package leetcode.java.resources;
+package leetcode.java.model;
 
 public class TreeNode {
     public int val;

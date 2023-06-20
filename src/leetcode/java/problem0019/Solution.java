@@ -1,6 +1,6 @@
 package leetcode.java.problem0019;
 
-import leetcode.java.resources.ListNode;
+import leetcode.java.model.ListNode;
 
 // https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 // #linked_list

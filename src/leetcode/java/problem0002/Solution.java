@@ -1,6 +1,6 @@
 package leetcode.java.problem0002;
 
-import leetcode.java.resources.ListNode;
+import leetcode.java.model.ListNode;
 
 /**
  * ques: https://leetcode.com/problems/add-two-numbers/description/

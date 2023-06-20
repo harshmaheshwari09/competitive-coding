@@ -1,4 +1,4 @@
-package leetcode.java.resources;
+package leetcode.java.model;
 
 import java.util.List;
 

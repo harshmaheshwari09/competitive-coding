@@ -1,6 +1,6 @@
 package leetcode.java.problem0912;
 
-import leetcode.java.resources.Operations;
+import leetcode.java.model.Operations;
 
 /**
  * Complexity: Time: O(n^2), Space: O(1)

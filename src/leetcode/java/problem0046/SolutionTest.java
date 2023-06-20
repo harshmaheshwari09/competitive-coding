@@ -2,7 +2,7 @@ package leetcode.java.problem0046;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import leetcode.java.resources.Operations;
+import leetcode.java.model.Operations;
 
 public class SolutionTest {
     @Test

@@ -1,6 +1,6 @@
 package leetcode.java.problem0021;
 
-import leetcode.java.resources.ListNode;
+import leetcode.java.model.ListNode;
 
 public class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

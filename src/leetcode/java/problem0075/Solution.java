@@ -1,6 +1,6 @@
 package leetcode.java.problem0075;
 
-import leetcode.java.resources.Operations;
+import leetcode.java.model.Operations;
 
 /**
  * ques: https://leetcode.com/problems/sort-colors/

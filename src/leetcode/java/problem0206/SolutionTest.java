@@ -1,7 +1,7 @@
 package leetcode.java.problem0206;
 
 import org.junit.jupiter.api.Test;
-import leetcode.java.resources.ListNode;
+import leetcode.java.model.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;

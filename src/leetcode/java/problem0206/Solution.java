@@ -1,6 +1,6 @@
 package leetcode.java.problem0206;
 
-import leetcode.java.resources.ListNode;
+import leetcode.java.model.ListNode;
 
 // #linked_list
 public class Solution {

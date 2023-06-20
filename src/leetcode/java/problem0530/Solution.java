@@ -1,6 +1,6 @@
 package leetcode.java.problem0530;
 
-import leetcode.java.resources.TreeNode;
+import leetcode.java.model.TreeNode;
 
 class Solution {
     int ans;
