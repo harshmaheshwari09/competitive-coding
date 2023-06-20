@@ -3,6 +3,8 @@
 This repository contains my solutions for various LeetCode problems. Each problem solution is implemented in Java and
 organized in separate directories based on the problem's ID and title.
 
+`JAVA` Solution can be found [here](src/leetcode/java/problems).
+
 More solutions will be added as I solve more problems on LeetCode.
 
 ## How to Use
