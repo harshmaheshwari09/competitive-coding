@@ -22,7 +22,7 @@ file_name="$number. $filename.md"
 file_contents="$url\n$number"
 
 
-cd ~/IdeaProjects/competitive-coding/src/leetcode/java
+cd ~/IdeaProjects/competitive-coding/src/leetcode/java/problems/
 
 paddedNumber=$(printf "%04d" "$number")
 directory_name="problem$paddedNumber"
@@ -31,5 +31,5 @@ mkdir $directory_name
 cd $directory_name
 echo -e "# $number. $filename\n\n* Question: $url \n* Solution: [here](Solution.java) \n* Testing: [here](SolutionTest.java) \n* Tags: \n* Complexity: " > "$file_name"
 echo -e "# $number. $filename\n\n* Question: $url \n* Solution: [here](Solution.java) \n* Testing: [here](SolutionTest.java) \n* Tags: \n* Complexity: " > README.md
-echo -e "package leetcode.java.$directory_name; /** ques: $url tags: # complexity: Time: , Space:*/ public class Solution{}" > Solution.java
-echo -e "package leetcode.java.$directory_name; import org.junit.jupiter.api.Test; public class SolutionTest{@Test public void testSolution1() {}}" > SolutionTest.java
+echo -e "package leetcode.java.problems.$directory_name; /** ques: $url tags: # complexity: Time: , Space:*/ public class Solution{}" > Solution.java
+echo -e "package leetcode.java.problems.$directory_name; import org.junit.jupiter.api.Test; public class SolutionTest{@Test public void testSolution1() {}}" > SolutionTest.java
