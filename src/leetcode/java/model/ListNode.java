@@ -40,4 +40,14 @@ public class ListNode {
         Assertions.assertNull(expected);
         Assertions.assertNull(actual);
     }
+
+    public static int getLength(ListNode head) {
+        int length = 0;
+        ListNode node = head;
+        while (node != null) {
+            node = node.next;
+            length++;
+        }
+        return length;
+    }
 }
