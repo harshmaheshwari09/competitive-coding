@@ -4,6 +4,12 @@ import java.util.List;
 
 public class Operations {
 
+    public static void reverse(int arr[], int l, int r) {
+        while (l < r) {
+            swap(arr, l++, r--);
+        }
+    }
+
     public static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
