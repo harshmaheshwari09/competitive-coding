@@ -2,15 +2,15 @@ package leetcode.java.problems.problem0785;
 
 /**
  * Ques: https://leetcode.com/problems/is-graph-bipartite/
- * Tags: #
- * Complexity: Time: O(), Space: O()
+ * Tags: #graph
+ * Complexity: Time: O(n), Space: O(n)
  */
 public class Solution {
     public boolean isBipartite(int[][] graph) {
         int n = graph.length;
         Boolean color[] = new Boolean[n];
         for (int i = 0; i < n; i++) {
-            if (!canDivide(graph, i, color)) {
+            if (color[i] == null && !canDivide(graph, i, color)) {
                 return false;
             }
         }
