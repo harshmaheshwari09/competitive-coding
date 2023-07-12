@@ -1,27 +1,12 @@
 import os
-import sys
 
-# Check input directory existence.
-if len(sys.argv) > 1:
-    input_directory = sys.argv[1]
-else:
-    input_directory = os.getcwd()
+def count_directories():
+    current_dir = "/Users/harshmaheshwari/IdeaProjects/competitive-coding/src/leetcode/java/problems"
+    directories_count = 0
 
-# Validate input directory.
-if not os.path.isdir(input_directory):
-    print("Invalid input directory")
-    sys.exit(1)
+    for item in os.listdir(current_dir):
+        directories_count += 1
+    return directories_count
 
-
-# Count directories
-def count_directories(input_directory):
-    count = 0
-    for root, dirs, files in os.walk(input_directory):
-        for directory in dirs:
-            if directory.startswith("problem"):
-                count += 1
-    return count
-
-
-directory_count = count_directories(input_directory)
-print("completed ques: ", directory_count)
+num_directories = count_directories()
+print("completed ques: ", num_directories)
