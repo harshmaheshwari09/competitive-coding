@@ -5,8 +5,8 @@ import java.util.List;
 
 /**
  * Ques: https://leetcode.com/problems/encode-and-decode-strings/
- * Tags: #
- * Complexity: Time: O(), Space: O()
+ * Tags: #string
+ * Complexity: Time: O(n), Space: O(n)
  */
 public class Solution {
     /*
