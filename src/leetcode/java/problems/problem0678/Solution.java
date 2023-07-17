@@ -9,24 +9,13 @@ public class Solution {
     public boolean checkValidString(String s) {
         int leftMin = 0, leftMax = 0;
         for (char ch : s.toCharArray()) {
-            switch (ch) {
-                case '(' -> {
-                    leftMin++;
-                    leftMax++;
-                }
-                case ')' -> {
-                    leftMin = Math.max(0, leftMin - 1);
-                    leftMax--;
-                    if (leftMax < 0) {
-                        return false;
-                    }
-                }
-                case '*' -> {
-                    leftMin = Math.max(0, leftMin - 1);
-                    leftMax++;
-                }
+            leftMin += (ch == '(' ? 1 : -1);
+            leftMax += (ch == ')' ? -1 : 1);
+            if (leftMax < 0) {
+                return false;
             }
+            leftMin = Math.max(leftMin, 0);
         }
-        return Math.min(leftMin, leftMax) == 0;
+        return leftMin == 0;
     }
 }
