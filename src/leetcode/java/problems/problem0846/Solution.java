@@ -6,8 +6,8 @@ import java.util.Map;
 
 /**
  * Ques: https://leetcode.com/problems/hand-of-straights/
- * Tags: #
- * Complexity: Time: O(), Space: O()
+ * Tags: #greedy
+ * Complexity: Time: O(nlog(n)), Space: O(n)
  */
 public class Solution {
     public boolean isNStraightHand(int[] hand, int groupSize) {
