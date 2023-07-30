@@ -1,6 +1,5 @@
 package leetcode.java.problems.problem0124;
 
-import com.sun.source.tree.Tree;
 import leetcode.java.model.TreeNode;
 
 /**
