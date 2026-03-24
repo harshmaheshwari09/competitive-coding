@@ -17,7 +17,7 @@ public class Solution {
             ans[i] *= product;
             product *= nums[i];
         }
-        // suffix traversal
+        // suffix calculation
         product = 1;
         for (int i = nums.length - 1; i >= 0; i--) {
             ans[i] *= product;

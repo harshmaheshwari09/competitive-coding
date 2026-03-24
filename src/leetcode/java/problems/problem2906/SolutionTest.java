@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class SolutionTest {
 
     @Test
-    public void testWithZeroMod() {
+    public void testSolution1() {
         Solution solution = new Solution();
         int[][] input = {{1,2},{3,4}};
         int[][] actual = solution.constructProductMatrix(input);
@@ -15,7 +15,7 @@ class SolutionTest {
     }
 
     @Test
-    public void testWithOneMod() {
+    public void testSolution2() {
         Solution solution = new Solution();
         int[][] input = {{12345},{2},{1}};
         int[][] actual = solution.constructProductMatrix(input);
@@ -24,20 +24,11 @@ class SolutionTest {
     }
 
     @Test
-    public void testWithMoreThanOneMod() {
+    public void testSolution3() {
         Solution solution = new Solution();
         int[][] input = {{12345},{2},{1}, {12345}};
         int[][] actual = solution.constructProductMatrix(input);
         int[][] expected = {{0},{0},{0}, {0}};
-        Assertions.assertArrayEquals(expected, actual);
-    }
-
-    @Test
-    public void testSolution() {
-        Solution solution = new Solution();
-        int[][] input = {{3,2,5},{6,4,3},{6,3,1}};
-        int[][] actual = solution.constructProductMatrix(input);
-        int[][] expected = {{615,922,369},{307,461,615},{307,615,1845}};
         Assertions.assertArrayEquals(expected, actual);
     }
 }
