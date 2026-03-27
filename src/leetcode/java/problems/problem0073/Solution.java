@@ -1,5 +1,7 @@
 package leetcode.java.problems.problem0073;
 
+import java.util.Arrays;
+
 public class Solution {
     public void setZeroes(int[][] matrix) {
         boolean clearFirstRow = false, clearFirstCol = false;
@@ -41,9 +43,7 @@ public class Solution {
 
         // clearing first row
         if (clearFirstRow) {
-            for (int j = 0; j < matrix[0].length; j++) {
-                matrix[0][j] = 0;
-            }
+            Arrays.fill(matrix[0], 0);
         }
 
         // clearing first column

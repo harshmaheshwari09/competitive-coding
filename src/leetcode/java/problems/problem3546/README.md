@@ -59,3 +59,4 @@ No horizontal or vertical cut results in two non-empty sections with equal sums.
 - Matrix
 - Enumeration
 - Running Sum
+* Testing: [here](SolutionTest.java)

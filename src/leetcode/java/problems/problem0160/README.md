@@ -2,7 +2,6 @@
 
 * Question: https://leetcode.com/problems/intersection-of-two-linked-lists/
 * Solution: [here](Solution.java)
-* Testing: [here](SolutionTest.java)
 * Tags: #linked_list
 * Complexity: O(n)
 

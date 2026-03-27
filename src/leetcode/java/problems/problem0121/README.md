@@ -2,7 +2,6 @@
 
 * Question: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 * Solution: [here](Solution.java)
-* Testing: [here](SolutionTest.java)
 * Tags: #array
 * Complexity: Time: O(n), Space: O(1)
 

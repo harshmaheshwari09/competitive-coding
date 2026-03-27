@@ -2,5 +2,6 @@
 
 * Question: https://leetcode.com/problems/k-closest-points-to-origin/ 
 * Solution: [here](Solution.java) 
+* Testing: [here](SolutionTest.java)
 * Tags: #quick_select
 * Complexity: Time: O(n), Space: O(n)

@@ -2,5 +2,6 @@
 
 * Question: https://leetcode.com/problems/find-median-from-data-stream/ 
 * Solution: [here](Solution.java) 
+* Testing: [here](SolutionTest.java)
 * Tags: #heap
 * Complexity: Time: O(nlog(n)), Space: O(n)

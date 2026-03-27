@@ -2,7 +2,6 @@
 
 * Question: https://leetcode.com/problems/next-permutation/
 * Solution: [here](Solution.java)
-* Testing: [here](SolutionTest.java)
 * Tags: #array
 * Complexity: Time: O(n), Space: O(1)
 

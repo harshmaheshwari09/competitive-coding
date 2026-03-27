@@ -2,5 +2,6 @@
 
 * Question: https://leetcode.com/problems/largest-rectangle-in-histogram/ 
 * Solution: [here](Solution.java) 
+* Testing: [here](SolutionTest.java)
 * Tags: #stack
 * Complexity: Time: O(n), Space: O(n)

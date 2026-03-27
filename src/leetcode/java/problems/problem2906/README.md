@@ -49,5 +49,6 @@ This approach ensures O(n*m) time and O(n*m) space complexity (for the output ma
 
 * Question: https://leetcode.com/problems/construct-product-matrix/description/
 * Solution: [here](Solution.java)
+* Testing: [here](SolutionTest.java)
 * Tags: Array, Matrix, Prefix Sum
 * Complexity: Time: O(n*m), Space: O(n*m)
