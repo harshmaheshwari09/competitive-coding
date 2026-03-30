@@ -3,9 +3,9 @@ package leetcode.java.problems.problem0075;
 import leetcode.java.util.Operations;
 
 /**
- * ques: https://leetcode.com/problems/sort-colors/
- * tags: #two_pointer
- * complexity: O(n)
+ * Link: <a href="https://leetcode.com/problems/sort-colors/">LeetCode</a>
+ * Tags: #array #two-pointers #sorting
+ * Complexity: Time: O(n), Space: O(1)
  */
 public class Solution {
     public void sortColors(int[] nums) {
