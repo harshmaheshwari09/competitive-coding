@@ -1,7 +1,7 @@
 package leetcode.java.problems.problem0121;
 
 /**
- * Ques: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+ * Link: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">LeetCode</a>
  * Tags: #array
  * Complexity: Time: O(n), Space: O(1)
  */

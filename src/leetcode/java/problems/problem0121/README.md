@@ -1,6 +1,6 @@
 # 121. BEST TIME TO BUY AND SELL STOCK
 
-* Question: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+* Question: [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 * Solution: [here](Solution.java)
 * Tags: #array
 * Complexity: Time: O(n), Space: O(1)
