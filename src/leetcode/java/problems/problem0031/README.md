@@ -2,18 +2,19 @@
 
 * Question: https://leetcode.com/problems/next-permutation/
 * Solution: [here](Solution.java)
-* Tags: #array
+* Tags: #array #two-pointers
 * Complexity: Time: O(n), Space: O(1)
 
-## Solution Explaination
+## Solution Explanation:
 
-1) Find the first index left from the right side of the array where nums[left] < nums[left + 1]. This step identifies
-   the first element that can be swapped to generate the next permutation.
+1. Scan from right to left to find the first index `left` such that `nums[left] < nums[left + 1]`. This is the pivot
+   where the permutation can be increased.
 
-2) If left is found, find the first index right from the right side of the array where nums[right] > nums[left]. This
-   step finds the smallest element larger than nums[left] in the suffix to be swapped.
+2. If such a pivot exists, scan again from the right to find the first value greater than `nums[left]`, then swap the
+   two elements.
 
-3) Swap the elements at indices left and right.
+3. Reverse the suffix starting at `left + 1`. Since that suffix was originally in descending order, reversing it makes
+   it the smallest possible suffix.
 
-4) Reverse the elements starting from index left + 1 to the end of the array. This step ensures that the suffix is in
-   the smallest possible lexicographic order.
+If no pivot exists, the array is already the largest permutation, and reversing the whole array returns the smallest
+permutation.

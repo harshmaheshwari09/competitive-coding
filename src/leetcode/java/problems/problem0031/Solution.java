@@ -3,8 +3,8 @@ package leetcode.java.problems.problem0031;
 import leetcode.java.util.Operations;
 
 /**
- * Ques: https://leetcode.com/problems/next-permutation/
- * Tags: #array
+ * Ques: <a href="https://leetcode.com/problems/next-permutation/">...</a>
+ * Tags: #array #two-pointers
  * Complexity: Time: O(n), Space: O(1)
  */
 public class Solution {

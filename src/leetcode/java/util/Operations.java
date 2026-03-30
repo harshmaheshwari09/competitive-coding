@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Operations {
 
-    public static void reverse(int arr[], int l, int r) {
+    public static void reverse(int[] arr, int l, int r) {
         while (l < r) {
             swap(arr, l++, r--);
         }
