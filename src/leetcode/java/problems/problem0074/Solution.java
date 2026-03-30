@@ -2,8 +2,8 @@ package leetcode.java.problems.problem0074;
 
 /**
  * Ques: https://leetcode.com/problems/search-a-2d-matrix/
- * Tags: #
- * Complexity: Time: O(), Space: O()
+ * Tags: #array #binary-search #matrix
+ * Complexity: Time: O(log(m * n)), Space: O(1)
  */
 public class Solution {
 
@@ -13,7 +13,7 @@ public class Solution {
         }
         int m = matrix.length, n = matrix[0].length;
         int left = 0, right = m * n - 1;
-        while (left < right) {
+        while (left <= right) {
             int mid = left + (right - left) / 2;
             int val = getValue(mid, n, matrix);
             if (val == target) {
@@ -34,5 +34,4 @@ public class Solution {
         return matrix[i][j];
     }
 }
-
 
