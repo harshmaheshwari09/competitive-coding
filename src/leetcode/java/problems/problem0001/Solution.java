@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * Ques: https://leetcode.com/problems/two-sum/
- * Tags: #array
+ * Tags: #array #hash-table
  * Complexity: Time: O(n), Space: O(n)
  */
 public class Solution {
