@@ -1,8 +1,8 @@
 package leetcode.java.problems.problem0287;
 
 /**
- * Ques: https://leetcode.com/problems/find-the-duplicate-number/
- * Tags: #linked_list
+ * Link: <a href="https://leetcode.com/problems/find-the-duplicate-number/">LeetCode</a>
+ * Tags: #array #two-pointers #linked-list
  * Complexity: Time: O(n), Space: O(1)
  */
 public class Solution {
