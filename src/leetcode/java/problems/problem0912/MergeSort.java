@@ -1,7 +1,8 @@
 package leetcode.java.problems.problem0912;
 
 /**
- * Complexity: Time: O(nLog(n)), Space: O(n)
+ * Recursively splits the array and merges sorted halves back together.
+ * Complexity: Time: O(n log n), Space: O(n)
  */
 public class MergeSort implements Sort {
     @Override
@@ -10,7 +11,7 @@ public class MergeSort implements Sort {
     }
 
     public void mergeSort(int[] nums, int l, int r) {
-        if (l == r) {
+        if (l >= r) {
             return;
         }
         int mid = l + (r - l) / 2;

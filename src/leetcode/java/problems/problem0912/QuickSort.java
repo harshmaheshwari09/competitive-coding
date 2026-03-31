@@ -5,7 +5,8 @@ import leetcode.java.util.Operations;
 import java.util.Random;
 
 /**
- * Complexity: Time: O(nLog(n)), Space: O(1)
+ * Randomized quicksort that partitions the array around a pivot in-place.
+ * Complexity: Time: O(n log n) average, O(n^2) worst case; Space: O(log n) average, O(n) worst case
  */
 public class QuickSort implements Sort {
     @Override

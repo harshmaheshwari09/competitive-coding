@@ -3,6 +3,7 @@ package leetcode.java.problems.problem0912;
 import leetcode.java.util.Operations;
 
 /**
+ * Selects the smallest remaining value and places it at the next sorted position.
  * Complexity: Time: O(n^2), Space: O(1)
  */
 public class SelectionSort implements Sort {

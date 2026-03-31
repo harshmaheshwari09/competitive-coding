@@ -3,7 +3,8 @@ package leetcode.java.problems.problem0912;
 import leetcode.java.util.Operations;
 
 /**
- * Complexity: Time: O(n^2), Space: O(1)
+ * Inserts each element into the already-sorted prefix by swapping it leftward.
+ * Complexity: Time: O(n^2) worst case, O(n) best case, Space: O(1)
  */
 public class InsertionSort implements Sort {
     @Override
