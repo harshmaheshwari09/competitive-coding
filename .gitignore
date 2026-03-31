@@ -27,6 +27,8 @@ bin/
 ### VS Code ###
 .vscode/
 
+.ai/mcp/mcp.json
+
 target/
 
 ### Mac OS ###
